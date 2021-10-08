@@ -2,520 +2,6 @@ body {
   font-family: "reguler";
 }
 
-.login {
-  height: 90vh;
-  overflow: hidden;
-  position: relative;
-  z-index: 5;
-  margin-top: 100px;
-  /* background-color: #eee; */
-}
-
-
-.login .col-lg-6 {
-  position: relative;
-  z-index: 2;
-  /* background-color: aquamarine; */
-}
-
-.login .bg-1 {
-  left: -1010px;
-  top: -250px;
-  /* background: red; */
-}
-
-.login .bg-2 {
-  right: -1022px;
-  top: 130px;
-  /* background: blue; */
-}
-
-.login .img-1 {
-  position: absolute;
-  /* background-color: aqua; */
-  right: -120px;
-  width: 215px;
-  transform: rotate(-15deg);
-  z-index: -1;
-}
-
-.login .img-2 {
-  position: absolute;
-  /* background-color: aqua; */
-  left: -190px;
-  width: 215px;
-  z-index: -1;
-}
-
-.login .img-3 {
-  position: absolute;
-  /* background-color: aqua; */
-  right: -200px;
-  width: 215px;
-  transform: rotate(-15deg);
-  z-index: -1;
-}
-
-.login .card {
-  box-shadow: 10px 30px 30px rgba(0, 0, 0, 0.04);
-  border-radius: 10px;
-}
-
-.login .card-title {
-  font-family: "semi-bold";
-  font-size: 40px;
-}
-
-.login .card-text {
-  font-family: "reguler";
-  font-size: 20px;
-}
-
-.login .input input {
-  position: relative;
-  border-radius: 10px !important;
-  padding-left: 60px;
-  font-family: "medium";
-  font-size: 15px;
-  height: 52px;
-  border: 1px solid #213152;
-}
-
-.login .input input:focus {
-  outline: none !important;
-  border: 1px solid #529d2e;
-  box-shadow: none;
-  color: #529d2e;
-}
-
-.login .input .icon {
-  position: absolute;
-  padding: 15px 25px;
-  width: 50px;
-  font-size: 20px;
-  z-index: 2;
-  color: #9a9a9a;
-}
-
-.login button {
-  border: none;
-  padding: 10px;
-  border-radius: 10px;
-  font-family: "medium";
-  font-size: 20px;
-  transition: 0.2s ease-in-out;
-}
-
-.login button:hover {
-  filter: brightness(0.9);
-  background: #529d2e;
-}
-
-.login a {
-  font-family: "semi-bold";
-  font-size: 20px;
-  color: black;
-}
-
-.login .register {
-  font-family: "medium";
-  font-size: 15px;
-}
-
-.login .register a {
-  font-family: "bold";
-  font-size: 15px;
-  text-decoration: none;
-  color: #529d2e;
-}
-
-.otp {
-  height: 90vh;
-  overflow: hidden;
-  position: relative;
-  z-index: 5;
-  margin-top: 100px;
-  /* background-color: #eee; */
-}
-
-
-.otp .col-lg-6 {
-  position: relative;
-  z-index: 2;
-  /* background-color: aquamarine; */
-}
-
-.otp .bg-1 {
-  left: -1010px;
-  top: -250px;
-  /* background: red; */
-}
-
-.otp .bg-2 {
-  right: -1022px;
-  top: 130px;
-  /* background: blue; */
-}
-
-.otp .img-1 {
-  position: absolute;
-  /* background-color: aqua; */
-  right: -120px;
-  width: 215px;
-  transform: rotate(-15deg);
-  z-index: -1;
-}
-
-.otp .img-2 {
-  position: absolute;
-  /* background-color: aqua; */
-  left: -190px;
-  width: 215px;
-  z-index: -1;
-}
-
-.otp .img-3 {
-  position: absolute;
-  /* background-color: aqua; */
-  right: -200px;
-  width: 215px;
-  transform: rotate(-15deg);
-  z-index: -1;
-}
-
-.otp .card {
-  box-shadow: 10px 30px 30px rgba(0, 0, 0, 0.04);
-  border-radius: 10px;
-}
-
-.otp .card-title {
-  font-family: "semi-bold";
-  font-size: 40px;
-}
-
-.otp .card-text {
-  font-family: "reguler";
-  font-size: 20px;
-}
-
-.otp .input input {
-  position: relative;
-  border-radius: 10px !important;
-  padding-left: 60px;
-  font-family: "medium";
-  font-size: 15px;
-  height: 52px;
-  border: 1px solid #213152;
-}
-
-.otp .input input:focus {
-  outline: none !important;
-  border: 1px solid #529d2e;
-  box-shadow: none;
-  color: #529d2e;
-}
-
-.otp .input .icon {
-  position: absolute;
-  padding: 15px 25px;
-  width: 50px;
-  font-size: 20px;
-  z-index: 2;
-  color: #9a9a9a;
-}
-
-.otp button {
-  border: none;
-  padding: 10px;
-  border-radius: 10px;
-  font-family: "medium";
-  font-size: 20px;
-  transition: 0.2s ease-in-out;
-}
-
-.otp button:hover {
-  filter: brightness(0.9);
-  background: #529d2e;
-}
-
-.otp a {
-  font-family: "semi-bold";
-  font-size: 20px;
-  color: black;
-}
-
-.otp .register {
-  font-family: "medium";
-  font-size: 15px;
-}
-
-.otp .register a {
-  font-family: "bold";
-  font-size: 15px;
-  text-decoration: none;
-  color: #529d2e;
-}
-
-.forgot-password {
-  height: 90vh;
-  overflow: hidden;
-  position: relative;
-  z-index: 5;
-  margin-top: 100px;
-  /* background-color: #eee; */
-}
-
-
-.forgot-password .col-lg-6 {
-  position: relative;
-  z-index: 2;
-  /* background-color: aquamarine; */
-}
-
-.forgot-password .bg-1 {
-  left: -1010px;
-  top: -250px;
-  /* background: red; */
-}
-
-.forgot-password .bg-2 {
-  right: -1022px;
-  top: 130px;
-  /* background: blue; */
-}
-
-.forgot-password .img-1 {
-  position: absolute;
-  /* background-color: aqua; */
-  right: -120px;
-  width: 215px;
-  transform: rotate(-15deg);
-  z-index: -1;
-}
-
-.forgot-password .img-2 {
-  position: absolute;
-  /* background-color: aqua; */
-  left: -190px;
-  width: 215px;
-  z-index: -1;
-}
-
-.forgot-password .img-3 {
-  position: absolute;
-  /* background-color: aqua; */
-  right: -200px;
-  width: 215px;
-  transform: rotate(-15deg);
-  z-index: -1;
-}
-
-.forgot-password .card {
-  box-shadow: 10px 30px 30px rgba(0, 0, 0, 0.04);
-  border-radius: 10px;
-}
-
-.forgot-password .card-title {
-  font-family: "semi-bold";
-  font-size: 40px;
-}
-
-.forgot-password .card-text {
-  font-family: "reguler";
-  font-size: 20px;
-}
-
-.forgot-password .input input {
-  position: relative;
-  border-radius: 10px !important;
-  padding-left: 60px;
-  font-family: "medium";
-  font-size: 15px;
-  height: 52px;
-  border: 1px solid #213152;
-}
-
-.forgot-password .input input:focus {
-  outline: none !important;
-  border: 1px solid #529d2e;
-  box-shadow: none;
-  color: #529d2e;
-}
-
-.forgot-password .input .icon {
-  position: absolute;
-  padding: 15px 25px;
-  width: 50px;
-  font-size: 20px;
-  z-index: 2;
-  color: #9a9a9a;
-}
-
-.forgot-password button {
-  border: none;
-  padding: 10px;
-  border-radius: 10px;
-  font-family: "medium";
-  font-size: 20px;
-  transition: 0.2s ease-in-out;
-}
-
-.forgot-password button:hover {
-  filter: brightness(0.9);
-  background: #529d2e;
-}
-
-.forgot-password a {
-  font-family: "semi-bold";
-  font-size: 20px;
-  color: black;
-}
-
-.forgot-password .register {
-  font-family: "medium";
-  font-size: 15px;
-}
-
-.forgot-password .register a {
-  font-family: "bold";
-  font-size: 15px;
-  text-decoration: none;
-  color: #529d2e;
-}
-
-.daftar {
-  height: 150vh;
-  overflow: hidden;
-  position: relative;
-  z-index: 5;
-  margin-top: 100px;
-  /* background-color: #eee; */
-}
-
-
-.daftar .col-lg-6 {
-  position: relative;
-  z-index: 2;
-  /* background-color: aquamarine; */
-}
-
-.daftar .bg-1 {
-  left: -1010px;
-  top: -250px;
-  /* background: red; */
-}
-
-.daftar .bg-2 {
-  right: -1022px;
-  top: 130px;
-  /* background: blue; */
-}
-
-.daftar .img-1 {
-  position: absolute;
-  /* background-color: aqua; */
-  right: -120px;
-  width: 215px;
-  transform: rotate(-15deg);
-  z-index: -1;
-}
-
-.daftar .img-2 {
-  position: absolute;
-  /* background-color: aqua; */
-  left: -190px;
-  width: 215px;
-  z-index: -1;
-}
-
-.daftar .img-3 {
-  position: absolute;
-  /* background-color: aqua; */
-  right: -200px;
-  width: 215px;
-  transform: rotate(-15deg);
-  z-index: -1;
-}
-
-.daftar .card {
-  box-shadow: 10px 30px 30px rgba(0, 0, 0, 0.04);
-  border-radius: 10px;
-}
-
-.daftar .card-title {
-  font-family: "semi-bold";
-  font-size: 40px;
-}
-
-.daftar .card-text {
-  font-family: "reguler";
-  font-size: 20px;
-}
-
-.daftar .input input {
-  position: relative;
-  border-radius: 10px !important;
-  padding-left: 60px;
-  font-family: "medium";
-  font-size: 15px;
-  height: 52px;
-  border: 1px solid #213152;
-}
-
-.daftar .input input:focus {
-  outline: none !important;
-  border: 1px solid #529d2e;
-  box-shadow: none;
-  color: #529d2e;
-}
-
-.daftar .input input:focus+i {
-  outline: none !important;
-  border: 1px solid #529d2e;
-  box-shadow: none;
-  color: #529d2e;
-}
-
-.daftar .input .icon {
-  position: absolute;
-  padding: 15px 25px;
-  width: 50px;
-  font-size: 20px;
-  z-index: 2;
-  color: #9a9a9a;
-}
-
-.daftar button {
-  border: none;
-  padding: 10px;
-  border-radius: 10px;
-  font-family: "medium";
-  font-size: 20px;
-  transition: 0.2s ease-in-out;
-}
-
-.daftar button:hover {
-  filter: brightness(0.9);
-  background: #529d2e;
-}
-
-.daftar a {
-  font-family: "semi-bold";
-  font-size: 20px;
-  color: black;
-}
-
-.daftar .register {
-  font-family: "medium";
-  font-size: 15px;
-}
-
-.daftar .register a {
-  font-family: "bold";
-  font-size: 15px;
-  text-decoration: none;
-  color: #529d2e;
-}
 
 .info {
   padding: 100px 50px;
@@ -563,14 +49,12 @@ body {
 
 .carousel-item{
   width: 100%;
-}
-
-.d-block{
-  width: 100%;
+  position: relative;
 }
 
 .header .img-header{
   margin-top: -50px !important;
+  
 }
 
 /* .header .bg-1 {
@@ -608,13 +92,16 @@ body {
 
 .header img {
   z-index: 4;
-  
+  width: 700px;
+  height: auto;
+  /* margin-bottom: 30px !important; */
   margin-left: auto;
   margin-right: auto;
 }
 
 #content-carousel{
-  margin-top: -50px;
+  margin-top: -600px;
+  position: absolute;
 }
 
 .carousel-caption{
@@ -1510,6 +997,14 @@ body {
     overflow: hidden;
   }
 
+  #content-carousel{
+    margin-top: 0;
+    position: relative;
+  }
+  #carouselExampleControls{
+    height: 100% !important;
+  }
+
   .header h1 {
     padding-top: 20px;
     font-size: 30px !important;
@@ -1643,7 +1138,7 @@ body {
   .profil .video {
     width: 300px;
     height: 300px;
-    border-radius: 70px 15px;
+    border-radius: 70px 15px 70px 15px;
   }
 
   p {
@@ -1678,7 +1173,7 @@ body {
     z-index: 4;
     margin-left: auto;
     margin-right: auto;
-    height: 300px;
+    height: auto;
     width: 300px;
   }
   .partner .bg-2 {
