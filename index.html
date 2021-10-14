@@ -6,23 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SMKN 1 Tamanan</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous">
-    </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js"
-        integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous">
-    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="asset/css/all.min.css" />
@@ -34,15 +19,14 @@
 <body>
     <nav class="navbar navbar-expand-md fixed-top p-2 navbar-dark" id="navbar">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img src="asset/images/logo-light.png" class="img-fluid" id="brand" />
             </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <div class="navbar-nav ms-auto">
                     <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
                     <a class="nav-link" href="profile.html">Profile</a>
@@ -56,35 +40,15 @@
     </nav>
     <section class="header">
 
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="position: absolute; width: 100%;">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"    >
             <div class="carousel-inner" >
                 <div class="carousel-item active">
-                    <img src="asset/images/carousel1.png" class="" alt="..." style="height: 700px; width: 100%;">
-
-                    <div class="carousel-caption">
-                        <div class="row text-start" id="content-carousel">
-                            <div class="col-lg-6">
-                                <h1 class="text-title display-4  ">
-                                    Selamat Datang di <br />
-                                    SMK <span class="base-color"> Pusat Keunggulan</span>
-                                </h1>
-                                <p>
-                                    Menyiapkan skill peserta didik sesuai kebutuhan dunia kerja dan skill wirausaha
-                                    mandiri melalui
-                                    pendidikan vokasi yang mendalam dan menyeluruh.
-                                </p>
-                                <div class=" mt-4">
-                                    <button class="bt-invest btn btn-primary base-bg me-3 mb-2">
-                                        Selengkapnya
-                                    </button>
-
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <img src="asset/images/home-siswa.png" id="img-header" class="img-fluid " />
-                            </div>
-                        </div>
-                    </div>
+                    <picture>
+                        <source media="(max-width: 768px)" srcset="asset/images/slide1-mobile.jpg" loading="lazy">
+                        <img src="asset/images/slide1-desktop.jpg" class="d-block w-100" alt="Slide 1" loading="lazy">
+                    </picture>
+                    
+                   
 
                 </div>
 
@@ -515,7 +479,6 @@
             <p>Copyright © SMK Negeri 1 Tamanan By PrimaITech 2021</p>
         </div>
     </footer>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
     <script>
         window.onscroll = function () {
@@ -537,24 +500,7 @@
             }
         }
     </script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            var width = $(window).width();
-            console.log(width);
-            $(window).resize(function () {
-                console.log(width);
-                if ($(window).width() <= 720) {
-                    document.getElementById("content-carousel").classList.add('d-flex');
-                    document.getElementById("content-carousel").classList.add('flex-column-reverse');
-                } else {
-                    console.log('noarmal');
-                    document.getElementById("content-carousel").classList.remove('d-flex');
-                    document.getElementById("content-carousel").classList.remove('flex-column-reverse');
-
-                }
-            });
-        })
-    </script>
+  
 </body>
 
 </html>

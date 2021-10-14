@@ -101,11 +101,15 @@ body {
 
 #content-carousel{
   margin-top: -600px;
+  
   position: absolute;
+  bottom: 20%;
 }
 
 .carousel-caption{
-  margin-top: -200px !important;
+  /* margin-top: -200px !important; */
+  position: absolute;
+  bottom: 15%;
 }
 
 .header .btn-primary:hover {
@@ -670,6 +674,7 @@ body {
 .galeri img {
   width: 24.5%;
   height: 24.5%;
+  
 }
 
 .galeri .image {
@@ -677,13 +682,90 @@ body {
   padding-top: 20px;
 }
 
-/* .why span {
-  width: 49px;
-  height: 40px;
-  background: #529d2e;
-  display: block;
+
+.struktur {
+  /* background: #213152; */
+  background: #fff;
+  /* border-top-right-radius: 10%;
+  border-top-left-radius: 10%; */
+  font-family: 'semi-bold';
+
+  padding-top: 40px;
+  margin-bottom: 70px;
+  margin-top: 70px;
+  z-index: 2;
+  position: relative;
+  overflow: hidden;
+}
+
+.struktur h1 {
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+}
+
+.struktur h6 {
+  align-items: center;
+  font-weight: 100;
+  color: #fff;
+}
+
+
+.struktur .image {
+  margin-top: 10px;
+  position: relative;
+  width: 100%;
+  height: 100%;
   border-radius: 10px;
-} */
+}
+
+.struktur .image img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.struktur .image .overlay {
+  transition: .3s ease-in-out;
+  opacity: 0.5;
+  position: absolute;
+  border-radius: 10px;
+  top: 250px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #31ABDB;
+}
+
+.text h4{
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text h6{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.struktur .image:hover .overlay {
+  top: 0;
+}
 
 .why p {
   font-family: 'reguler';
@@ -691,10 +773,6 @@ body {
 }
 
 .blog {
-  /* background: #213152; */
-  /* background: #2780BE; */
-  /* border-top-right-radius: 10%;
-  border-top-left-radius: 10%; */
   font-family: 'semi-bold';
 
   padding-top: 40px;
@@ -1001,6 +1079,11 @@ body {
     margin-top: 0;
     position: relative;
   }
+  .carousel-caption{
+    margin-top: -100px !important;
+    top: 50%;
+  transform: translateY(-50%);
+  }
   #carouselExampleControls{
     height: 100% !important;
   }
@@ -1169,6 +1252,64 @@ body {
 }
 
 @media only screen and (max-width: 665px) {
+  .struktur .image {
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding-top: 10px;
+  }
+  
+  .struktur .image img {
+    margin-top: 10px;
+    
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  .struktur .image .overlay {
+    transition: .3s ease-in-out;
+    opacity: 0.5;
+    display: none;
+    position: absolute;
+    border-radius: 10px;
+    top: 250px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #31ABDB;
+  }
+  
+  .text h4{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .text h6{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .struktur .image:hover .overlay {
+    top: 0;
+  }
   #img-header {
     z-index: 4;
     margin-left: auto;
@@ -1207,6 +1348,61 @@ body {
 }
 
 @media only screen and (max-width: 400px) {
+  .struktur .image {
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  .struktur .image img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  .struktur .image .overlay {
+    transition: .3s ease-in-out;
+    opacity: 0.5;
+    display: none;
+    position: absolute;
+    border-radius: 10px;
+    top: 250px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #31ABDB;
+  }
+  
+  .text h4{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .text h6{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .struktur .image:hover .overlay {
+    top: 0;
+  }
   .header h1 {
     padding-top: 30px;
     font-size: 30px !important;
